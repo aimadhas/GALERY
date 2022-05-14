@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:ital,wght@1,700&family=Roboto+Mono:ital,wght@1,200&family=Roboto:ital,wght@1,100&display=swap');
+.conteniare
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+}
+.card
+{
+    height:279px ;
+    width:200px;
+    margin: 0px 20px;
+    padding: 5px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 70px 63px -60px #000000;
+    transition:  background 1s  ease-out;
+    margin-bottom:50px ;
+}
+.card > h2
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.card > .icon
+{
+    position: absolute;
+    color: #fff;
+    height: 100px;
+    top: 180px ;
+    width: 50px ;
+    display: flex ;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-around ;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.card0
+{
+    background-image: url(image/4.jpg);
+    background-size: cover;
+}
+.card1
+{
+    background-image: url(image/6.jpg);
+    background-size:cover;
+    width: 200px;
+    transition:  background 1s  ease-out;
+}
+.card:hover > h2 
+{
+    opacity: 1;
+}
+.card:hover > .icon
+{
+    opacity: 1;
+}
+.card:hover
+{
+    background-position: top;
+    background-size: 300px;
+}
+.card1:hover
+{
+    background-position: top ;
+    background-size: 550px;
+}
+.card2
+{
+    background-image: url(image/7.jpg);
+    background-size: cover;
+}
+.card2:hover
+{
+    background-position: top ;
+    background-size: 350px;   
+}
+.card3{
+    background: url(image/3.jpg);
+    background-size: cover;
+}
+.card4{
+    background: url(image/1.jpg);
+    background-size: cover;
+}
+.card5{
+    background: url(image/8.jpg);
+    background-size: cover;
+}
+.card6{
+    background: url(image/19.jpg);
+    background-size: cover;
+}
+.card7{
+    background: url(image/20.jpg);
+    background-size: cover;
+}
+.card8{
+    background: url(image/21.jpg);
+    background-size: cover;
+}
+.card9{
+    background: url(image/14.jpg);
+    background-size: cover;
+}
+.card10{
+    background: url(image/2.jpg);
+    background-size: cover;
+}
+.card11{
+    background: url(image/11.jpg);
+    background-size: cover;
+}
+.card12{
+    background: url(image/12.jpg);
+    background-size: cover;
+}
+.card13{
+    background: url(image/13.jpg);
+    background-size: cover;
+}
+.card14{
+    background: url(image/15.jpg);
+    background-size: cover;
+}
+.card15{
+    background: url(image/16.jpg);
+    background-size: cover;
+}
+.card16{
+    background: url(image/10.jpg);
+    background-size: cover;
+}
+.card17{
+    background: url(image/17.jpg);
+    background-size: cover;
+}
+.card18{
+    background: url(image/9.jpg);
+    background-size: cover;
+}
+.card19{
+    background: url(image/18.jpg);
+    background-size: cover;
+}
+.card19:hover
+{
+    background-position: center;
+    background-size: 300px;
+}
+.card13:hover
+{
+    background-position: center;
+    background-size: 300px;
+}
+.card15:hover
+{
+    background-position: center;
+    background-size: 300px;
+}
+
+@media (max-width:600px) {
+.card
+{
+    margin-bottom: 20px;
+}
+    
+}
